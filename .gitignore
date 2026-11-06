@@ -1,0 +1,30 @@
+# Dependencies and local tools
+node_modules/
+.tools/
+.run/
+
+# Generated build, deployment and benchmark output
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+frontend/dist/
+deployments/
+performance-results/
+
+# Local configuration and editor files
+.env
+.env.*
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Coursework and presentation material
+/docs/
+/report/
+*.mp4
+*.pdf
+*.docx

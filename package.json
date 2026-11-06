@@ -1,0 +1,33 @@
+{
+  "name": "a3-securebank",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Assignment 3 - Blockchain-Based Secure Banking Transaction System (educational prototype)",
+  "license": "MIT",
+  "scripts": {
+    "setup": "npm install --no-fund --no-audit && npm --prefix frontend install --no-fund --no-audit && hardhat compile",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:gas": "cross-env REPORT_GAS=true hardhat test",
+    "blockchain": "node scripts/chain.js",
+    "deploy": "hardhat run scripts/deploy.js --network a3local",
+    "seed": "hardhat run scripts/seed.js --network a3local",
+    "reset": "node scripts/reset.js",
+    "frontend": "npm run build && node scripts/serve.js",
+    "build": "npm --prefix frontend run build",
+    "demo": "node scripts/demo.js",
+    "stop": "node scripts/stop.js",
+    "status": "node scripts/status.js",
+    "benchmark": "node scripts/benchmark/run.js",
+    "charts": "node scripts/benchmark/charts.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
+    "@resvg/resvg-js": "^2.6.2",
+    "cross-env": "^10.1.0",
+    "hardhat": "^2.29.1"
+  },
+  "engines": {
+    "node": ">=22.12"
+  }
+}

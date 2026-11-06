@@ -1,0 +1,9 @@
+{
+  "networkName": "A3 SecureBank Local (Hardhat)",
+  "chainId": 31303,
+  "rpcHost": "127.0.0.1",
+  "rpcPort": 8603,
+  "benchmarkRpcPort": 8613,
+  "frontendPort": 5303,
+  "accountCount": 50
+}

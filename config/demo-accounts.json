@@ -1,0 +1,11 @@
+{
+  "notice": "LOCAL DEMO ACCOUNTS — NOT REAL WALLETS. These are unlocked Hardhat development accounts on the Assignment 3 local chain (chainId 31303) only.",
+  "accounts": [
+    { "index": 0, "name": "Administrator", "role": "admin", "seeded": false },
+    { "index": 1, "name": "Alice Rahman", "role": "customer", "seeded": true },
+    { "index": 2, "name": "Bob Hossain", "role": "customer", "seeded": true },
+    { "index": 3, "name": "Charlie Ahmed", "role": "customer", "seeded": true },
+    { "index": 4, "name": "Diana Karim", "role": "customer", "seeded": false },
+    { "index": 5, "name": "Ethan Islam", "role": "customer", "seeded": false }
+  ]
+}
